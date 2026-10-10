@@ -432,7 +432,7 @@ let LOCALE = "en-US", LANG = "en";
     ["Sunny", "Soleado", "Ensoleillé", "مشمس", "دھوپ"],
     ["Rain", "Lluvia", "Pluie", "مطر", "بارش"],
     ["Light rain", "Lluvia ligera", "Pluie légère", "مطر خفيف", "ہلکی بارش"],
-    ["Patchy rain possible", "Posibilidad de lluvia dispersa", "Pluie éparse possible", "احتمال هطول أمطار متفرقة", "کہیں کہیں بارش کا امکان"]
+    ["Patchy rain possible", "Posibilidad de lluvia dispersa", "Pluie éparse possible", "احتمال هطول أمطار متفرقة", "کہیں کہیں بارش کا امکان"],
     ["Unable to fetch weather data. Please try again.", "No se pudo obtener el clima. Inténtalo de nuevo.", "Impossible de récupérer la météo. Veuillez réessayer.", "تعذّر جلب بيانات الطقس. يرجى المحاولة مرة أخرى.", "موسم کا ڈیٹا حاصل نہیں ہو سکا۔ دوبارہ کوشش کریں۔"]
   ];
   /* ---- Dictionary per language: exact strings and "#" templates ---- */
