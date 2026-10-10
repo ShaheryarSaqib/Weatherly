@@ -455,7 +455,15 @@ let LOCALE = "en-US", LANG = "en";
     ["PM2.5 air pollution", "Contaminación PM2.5", "Pollution PM2.5", "تلوث الهواء PM2.5", "PM2.5 فضائی آلودگی"],
     ["Loading...", "Cargando...", "Chargement...", "جارٍ التحميل...", "لوڈ ہو رہا ہے..."],
     ["Select a Country (A-Z)", "Elige un país (A-Z)", "Choisir un pays (A-Z)", "اختر دولة (أ-ي)", "ملک منتخب کریں (A-Z)"],
-    ["Search country...", "Buscar país...", "Rechercher un pays...", "ابحث عن دولة...", "ملک تلاش کریں..."]
+    ["Search country...", "Buscar país...", "Rechercher un pays...", "ابحث عن دولة...", "ملک تلاش کریں..."],
+    ["#, #, #", "#, #, #", "#, #, #", "#, #, #", "#, #, #"],
+    ["#, #", "#, #", "#, #", "#, #", "#, #"],
+    ["Karachi", "Karachi", "Karachi", "كراتشي", "کراچی"],
+    ["Lahore", "Lahore", "Lahore", "لاهور", "لاہور"],
+    ["Islamabad", "Islamabad", "Islamabad", "إسلام آباد", "اسلام آباد"],
+    ["Sindh", "Sindh", "Sindh", "السند", "سندھ"],
+    ["Punjab", "Punyab", "Pendjab", "البنجاب", "پنجاب"],
+    ["Pakistan", "Pakistán", "Pakistan", "باكستان", "پاکستان"]
   ];
   /* ---- Dictionary per language: exact strings and "#" templates ---- */
   const cache = {};
