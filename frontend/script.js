@@ -433,7 +433,29 @@ let LOCALE = "en-US", LANG = "en";
     ["Rain", "Lluvia", "Pluie", "مطر", "بارش"],
     ["Light rain", "Lluvia ligera", "Pluie légère", "مطر خفيف", "ہلکی بارش"],
     ["Patchy rain possible", "Posibilidad de lluvia dispersa", "Pluie éparse possible", "احتمال هطول أمطار متفرقة", "کہیں کہیں بارش کا امکان"],
-    ["Unable to fetch weather data. Please try again.", "No se pudo obtener el clima. Inténtalo de nuevo.", "Impossible de récupérer la météo. Veuillez réessayer.", "تعذّر جلب بيانات الطقس. يرجى المحاولة مرة أخرى.", "موسم کا ڈیٹا حاصل نہیں ہو سکا۔ دوبارہ کوشش کریں۔"]
+    ["Unable to fetch weather data. Please try again.", "No se pudo obtener el clima. Inténtalo de nuevo.", "Impossible de récupérer la météo. Veuillez réessayer.", "تعذّر جلب بيانات الطقس. يرجى المحاولة مرة أخرى.", "موسم کا ڈیٹا حاصل نہیں ہو سکا۔ دوبارہ کوشش کریں۔"],
+    ["# km/h", "# km/h", "# km/h", "# كم/س", "# کلومیٹر/گھنٹہ"],
+    ["# km", "# km", "# km", "# كم", "# کلومیٹر"],
+    ["# mb", "# mb", "# mb", "# ملي بار", "# ملی بار"],
+    ["N", "N", "N", "شمال", "شمال"],
+    ["NE", "NE", "NE", "شمال شرق", "شمال مشرق"],
+    ["E", "E", "E", "شرق", "مشرق"],
+    ["SE", "SE", "SE", "جنوب شرق", "جنوب مشرق"],
+    ["S", "S", "S", "جنوب", "جنوب"],
+    ["SW", "SO", "SO", "جنوب غرب", "جنوب مغرب"],
+    ["W", "O", "O", "غرب", "مغرب"],
+    ["NW", "NO", "NO", "شمال غرب", "شمال مغرب"],
+    ["Day at a glance", "El día de un vistazo", "Aperçu de la journée", "اليوم في لمحة", "ایک نظر میں دن"],
+    ["Move over the bar", "Mueve el cursor sobre la barra", "Passez la souris sur la barre", "مرّر المؤشر على الشريط", "بار پر ماؤس پھیریں"],
+    ["Low # · High #", "Mín # · Máx #", "Min # · Max #", "الأدنى # · الأعلى #", "کم از کم # · زیادہ سے زیادہ #"],
+    ["Compare cities", "Comparar ciudades", "Comparer des villes", "مقارنة المدن", "شہروں کا موازنہ"],
+    ["Type a city and press Enter", "Escribe una ciudad y pulsa Enter", "Saisissez une ville et appuyez sur Entrée", "اكتب مدينة واضغط Enter", "شہر لکھیں اور Enter دبائیں"],
+    ["Compare with... e.g. London", "Comparar con... p. ej. Londres", "Comparer avec... ex. Londres", "قارن مع... مثل لندن", "موازنہ کریں... مثلاً لندن"],
+    ["Temperature", "Temperatura", "Température", "درجة الحرارة", "درجہ حرارت"],
+    ["PM2.5 air pollution", "Contaminación PM2.5", "Pollution PM2.5", "تلوث الهواء PM2.5", "PM2.5 فضائی آلودگی"],
+    ["Loading...", "Cargando...", "Chargement...", "جارٍ التحميل...", "لوڈ ہو رہا ہے..."],
+    ["Select a Country (A-Z)", "Elige un país (A-Z)", "Choisir un pays (A-Z)", "اختر دولة (أ-ي)", "ملک منتخب کریں (A-Z)"],
+    ["Search country...", "Buscar país...", "Rechercher un pays...", "ابحث عن دولة...", "ملک تلاش کریں..."]
   ];
   /* ---- Dictionary per language: exact strings and "#" templates ---- */
   const cache = {};
