@@ -920,3 +920,8 @@ function renderCountryGrid(filter) {
   /* ---- 6. Show the page sooner ---- */
   const sp = $("#splash"); if (sp) setTimeout(() => sp.classList.add("off"), 700);
 })();
+/* ===== Re-translate after all buttons exist ===== */
+setTimeout(() => {
+  const s = document.getElementById("lang");
+  if (s) s.dispatchEvent(new Event("change"));
+}, 1500);
