@@ -420,9 +420,21 @@ let LOCALE = "en-US", LANG = "en";
     ["Air quality data is not available for this location.", "No hay datos de calidad del aire para este lugar.", "Données de qualité de l'air indisponibles pour ce lieu.", "بيانات جودة الهواء غير متاحة لهذا الموقع.", "اس مقام کے لیے ہوا کے معیار کا ڈیٹا دستیاب نہیں۔"],
     ["EPA index", "Índice EPA", "Indice EPA", "مؤشر EPA", "EPA انڈیکس"],
     ["Location not found.", "Ubicación no encontrada.", "Lieu introuvable.", "الموقع غير موجود.", "مقام نہیں ملا۔"],
+    ["Save card", "Guardar tarjeta", "Enregistrer la carte", "حفظ البطاقة", "کارڈ محفوظ کریں"],
+    ["Speak", "Hablar", "Parler", "تحدث", "بولیں"],
+    ["Voice", "Voz", "Voix", "الصوت", "آواز"],
+    ["All countries", "Todos los países", "Tous les pays", "كل البلدان", "تمام ممالک"],
+    ["Lite: off", "Modo ligero: desactivado", "Mode léger : désactivé", "الوضع الخفيف: متوقف", "لائٹ موڈ: بند"],
+    ["Clear", "Despejado", "Dégagé", "صاف", "صاف"],
+    ["Partly cloudy", "Parcialmente nublado", "Partiellement nuageux", "غائم جزئيًا", "جزوی ابر آلود"],
+    ["Cloudy", "Nublado", "Nuageux", "غائم", "ابر آلود"],
+    ["Overcast", "Cubierto", "Couvert", "غائم كليًا", "مکمل ابر آلود"],
+    ["Sunny", "Soleado", "Ensoleillé", "مشمس", "دھوپ"],
+    ["Rain", "Lluvia", "Pluie", "مطر", "بارش"],
+    ["Light rain", "Lluvia ligera", "Pluie légère", "مطر خفيف", "ہلکی بارش"],
+    ["Patchy rain possible", "Posibilidad de lluvia dispersa", "Pluie éparse possible", "احتمال هطول أمطار متفرقة", "کہیں کہیں بارش کا امکان"]
     ["Unable to fetch weather data. Please try again.", "No se pudo obtener el clima. Inténtalo de nuevo.", "Impossible de récupérer la météo. Veuillez réessayer.", "تعذّر جلب بيانات الطقس. يرجى المحاولة مرة أخرى.", "موسم کا ڈیٹا حاصل نہیں ہو سکا۔ دوبارہ کوشش کریں۔"]
   ];
-
   /* ---- Dictionary per language: exact strings and "#" templates ---- */
   const cache = {};
   const rx = k => new RegExp("^" + k.replace(/[.*+?^${}()|[\]\\]/g, "\\$&").replace(/#/g, "(.+?)") + "$");
