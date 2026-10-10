@@ -940,3 +940,7 @@ setTimeout(() => {
   const s = document.getElementById("lang");
   if (s) s.dispatchEvent(new Event("change"));
 }, 1500);
+setTimeout(() => {
+  const s = document.getElementById("lang");
+  if (s) s.dispatchEvent(new Event("change"));
+}, 2000);
